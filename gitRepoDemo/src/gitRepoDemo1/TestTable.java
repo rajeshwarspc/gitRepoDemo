@@ -1,8 +1,11 @@
 package gitRepoDemo1;
 
-public class TestTable {
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class TestTable {
+    @Test
+	public void testTable1() {
 		// TODO Auto-generated method stub
 		
 		int num = 2;
@@ -11,6 +14,8 @@ public class TestTable {
 		{
 			System.out.println(num+" * "+i+" = "+(num*i));
 		}
+		
+		Assert.assertNotEquals("TestTable", "TestTable1");
 
 	}
 

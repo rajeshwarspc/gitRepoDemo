@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="257" started-at="2023-02-24T07:55:51Z" finished-at="2023-02-24T07:55:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="257" started-at="2023-02-24T07:55:51Z" finished-at="2023-02-24T07:55:51Z">
+      <class name="gitRepoDemo1.TestTable">
+        <test-method status="PASS" signature="testTable1()[pri:0, instance:gitRepoDemo1.TestTable@1f28c152]" name="testTable1" duration-ms="4" started-at="2023-02-24T07:55:51Z" finished-at="2023-02-24T07:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTable1 -->
+      </class> <!-- gitRepoDemo1.TestTable -->
+      <class name="gitRepoDemo1.Example">
+        <test-method status="PASS" signature="Example1()[pri:0, instance:gitRepoDemo1.Example@7791a895]" name="Example1" duration-ms="2" started-at="2023-02-24T07:55:51Z" finished-at="2023-02-24T07:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Example1 -->
+      </class> <!-- gitRepoDemo1.Example -->
+      <class name="gitRepoDemo1.HelloWorld">
+        <test-method status="PASS" signature="hellowWorld1()[pri:0, instance:gitRepoDemo1.HelloWorld@4b4523f8]" name="hellowWorld1" duration-ms="69" started-at="2023-02-24T07:55:51Z" finished-at="2023-02-24T07:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hellowWorld1 -->
+      </class> <!-- gitRepoDemo1.HelloWorld -->
+      <class name="gitRepoDemo1.Factorial">
+        <test-method status="PASS" signature="factorial1()[pri:0, instance:gitRepoDemo1.Factorial@7d907bac]" name="factorial1" duration-ms="2" started-at="2023-02-24T07:55:51Z" finished-at="2023-02-24T07:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- factorial1 -->
+      </class> <!-- gitRepoDemo1.Factorial -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

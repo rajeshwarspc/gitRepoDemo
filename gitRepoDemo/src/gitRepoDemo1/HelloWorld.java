@@ -1,10 +1,14 @@
 package gitRepoDemo1;
 
-public class HelloWorld {
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class HelloWorld {
+    @Test
+	public void hellowWorld1()
+	{
 		System.out.println("Printing Hello World");
-		System.out.println("Changes Done");
+		Assert.assertEquals("hellowWorld1test", "hellowWorld1test");
 
 	}
 

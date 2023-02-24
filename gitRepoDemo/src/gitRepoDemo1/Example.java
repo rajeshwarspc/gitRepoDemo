@@ -1,10 +1,16 @@
 package gitRepoDemo1;
 
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
 public class Example {
 
-	public static void main(String[] args) {
+	@Test
+	public void Example1()
+	{
 		System.out.println("Example");
-
+		Assert.assertTrue(true);
+		
 	}
 
 }
