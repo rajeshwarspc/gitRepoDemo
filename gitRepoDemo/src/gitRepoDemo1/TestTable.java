@@ -8,7 +8,7 @@ public class TestTable {
 	public void testTable1() {
 		// TODO Auto-generated method stub
 		
-		int num = 3;
+		int num = 4;
 		System.out.println("Printing Table of "+num+": ");
 		for(int i = 1; i<=10; i++)
 		{
