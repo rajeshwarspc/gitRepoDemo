@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="gitRepoDemo1.TestTable">
+      <class name="gitRepoDemo1.Facebook">
         <methods>
-          <include name="testTable1"/>
+          <include name="login"/>
+          <include name="browserClose"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- gitRepoDemo1.TestTable -->
+      </class> <!-- gitRepoDemo1.Facebook -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

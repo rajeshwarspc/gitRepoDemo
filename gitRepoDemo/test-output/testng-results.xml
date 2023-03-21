@@ -1,35 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="68" started-at="2023-02-27T03:37:56Z" finished-at="2023-02-27T03:37:56Z">
+  <suite name="Default suite" duration-ms="91278" started-at="2023-02-28T00:34:48Z" finished-at="2023-02-28T00:36:19Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="68" started-at="2023-02-27T03:37:56Z" finished-at="2023-02-27T03:37:56Z">
-      <class name="gitRepoDemo1.TestTable">
-        <test-method status="PASS" signature="testTable1()[pri:0, instance:gitRepoDemo1.TestTable@32d992b2]" name="testTable1" duration-ms="5" started-at="2023-02-27T03:37:56Z" finished-at="2023-02-27T03:37:56Z">
+    <test name="Default test" duration-ms="91278" started-at="2023-02-28T00:34:48Z" finished-at="2023-02-28T00:36:19Z">
+      <class name="gitRepoDemo1.Facebook">
+        <test-method status="PASS" signature="setup()[pri:0, instance:gitRepoDemo1.Facebook@6e0e048a]" name="setup" is-config="true" duration-ms="82124" started-at="2023-02-28T00:34:48Z" finished-at="2023-02-28T00:36:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTable1 -->
-      </class> <!-- gitRepoDemo1.TestTable -->
-      <class name="gitRepoDemo1.Example">
-        <test-method status="PASS" signature="Example1()[pri:0, instance:gitRepoDemo1.Example@4439f31e]" name="Example1" duration-ms="1" started-at="2023-02-27T03:37:56Z" finished-at="2023-02-27T03:37:56Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:gitRepoDemo1.Facebook@6e0e048a]" name="login" duration-ms="8071" started-at="2023-02-28T00:36:10Z" finished-at="2023-02-28T00:36:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Example1 -->
-      </class> <!-- gitRepoDemo1.Example -->
-      <class name="gitRepoDemo1.Factorial">
-        <test-method status="PASS" signature="factorial1()[pri:0, instance:gitRepoDemo1.Factorial@215be6bb]" name="factorial1" duration-ms="2" started-at="2023-02-27T03:37:56Z" finished-at="2023-02-27T03:37:56Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:gitRepoDemo1.Facebook@6e0e048a]" name="browserClose" is-config="true" duration-ms="977" started-at="2023-02-28T00:36:18Z" finished-at="2023-02-28T00:36:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- factorial1 -->
-      </class> <!-- gitRepoDemo1.Factorial -->
-      <class name="gitRepoDemo1.HelloWorld">
-        <test-method status="PASS" signature="hellowWorld1()[pri:0, instance:gitRepoDemo1.HelloWorld@50c87b21]" name="hellowWorld1" duration-ms="16" started-at="2023-02-27T03:37:56Z" finished-at="2023-02-27T03:37:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hellowWorld1 -->
-      </class> <!-- gitRepoDemo1.HelloWorld -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- browserClose -->
+      </class> <!-- gitRepoDemo1.Facebook -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
